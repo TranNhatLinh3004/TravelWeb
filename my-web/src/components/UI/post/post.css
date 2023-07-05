@@ -1,0 +1,98 @@
+.postwrapper {
+  /* padding: 2rem 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 70px 0 70px;
+  /* background-color: bisque; */
+}
+
+.postwrapper .posts {
+  width: 730px;
+  height: 500px;
+  /* background-color: aqua;     */
+  display: flex;
+  justify-content: space-between;
+}
+
+.postwrapper .posts .post {
+  width: 350px;
+  height: 500px;
+  padding: 5px 10px;
+  /* background-color: rgb(30, 177, 153); */
+  box-shadow: 0 2px 5px rgb(121, 137, 137);
+  /* border-radius: 1px solid grey; */
+  border-radius: 10px;
+}
+
+.postwrapper .posts .post .info,
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postwrapper .posts .post .info {
+  justify-content: space-between;
+}
+
+.postwrapper .posts .post .icon i {
+  position: relative;
+  top: 11px;
+  margin-right: 3px;
+  color: #333;
+}
+
+.postwrapper .posts .post .icon p {
+  font-size: 15px;
+  color: #333;
+}
+
+.postwrapper .posts .post button,
+p,
+h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.postwrapper .posts .post button,
+p {
+  font-size: 15px;
+}
+
+.postwrapper .posts .post img {
+  width: 100%;
+  height: 220px;
+  background-color: rgb(121, 137, 137);
+}
+
+.postwrapper .posts .post button {
+  padding: 8px 15px;
+  background-color: var(--color-main);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.postwrapper .posts .post h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.postwrapper .newletter {
+  width: 600px;
+  height: 500px;
+  /* background-color: red; */
+}
+
+.postwrapper .newletter button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  background-color: #0581b6;
+  /* background-color: red; */
+}
